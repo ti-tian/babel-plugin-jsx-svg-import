@@ -24,7 +24,7 @@
 
 ```javascript
 [
-  '@qunhe/babel-plugin-jsx-svg-import',
+  'babel-plugin-jsx-svg-import',
   {
     displayName: 'Icon',
     propName: 'type',
@@ -49,7 +49,7 @@ ReactDOM.render(<Icon type="close"/>);
 
 ```javascript
 [
-  '@qunhe/babel-plugin-jsx-svg-import',
+  'babel-plugin-jsx-svg-import',
   {
     displayName: 'Icon',
     propName: 'type',
@@ -64,7 +64,7 @@ ReactDOM.render(<Icon type="close"/>);
 
       ↓ ↓ ↓ ↓ ↓ ↓
 
-import Icon from '@qunhe/babel-plugin-jsx-svg-import/lib/runtime';
+import Icon from 'babel-plugin-jsx-svg-import/lib/runtime';
 import './assets/close.svg'
 
 ReactDOM.render(<Icon type="close"/>);
