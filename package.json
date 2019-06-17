@@ -15,14 +15,16 @@
     "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-node-resolve": "^5.0.1"
   },
+  "keywords": [
+    "babel-plugin",
+    "svg"
+  ],
   "files": [
     "lib",
     "package.json",
     "README.md"
   ],
   "scripts": {
-    "example": "cd example && npm run dev",
-    "build": "rollup -c",
-    "publish": "npm run build && npm publish"
+    "example": "cd example && npm run dev"
   }
 }
