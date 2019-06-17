@@ -1,0 +1,9 @@
+coverage/
+node_modules/
+build/
+tests/**/*
+webpack
+**/__test__/*
+
+# NIM script
+NIM_Web_NIM_v5.1.0.js

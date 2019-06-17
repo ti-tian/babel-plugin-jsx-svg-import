@@ -1,0 +1,28 @@
+{
+  "name": "babel-plugin-jsx-svg-import",
+  "version": "0.0.1",
+  "description": "Add SVG file imports for Jsx elements",
+  "main": "lib/index.js",
+  "author": "titian",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.4.5",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "rollup": "^1.14.2",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-node-resolve": "^5.0.1"
+  },
+  "files": [
+    "lib",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "example": "cd example && npm run dev",
+    "build": "rollup -c",
+    "publish": "npm run build && npm publish"
+  }
+}
