@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-jsx-svg-import",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Add SVG file imports for Jsx elements",
   "main": "lib/index.js",
   "author": "titian",
