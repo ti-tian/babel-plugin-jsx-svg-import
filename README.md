@@ -1,4 +1,4 @@
-# @qunhe/babel-plugin-jsx-svg-import
+# babel-plugin-jsx-svg-import
 
 > 自动引入 `svg` 文件的 `babel` 插件
 
@@ -19,8 +19,6 @@
   "importComponent": false, // 默认：false, 不需要自定义图标组件，使用插件提供的图标组件
 }
 ```
-
-## [例子](https://gitlab.qunhequnhe.com/titian/babel-plugin-jsx-svg-import/tree/master/example)
 
 ### 不使用 importComponent
 
