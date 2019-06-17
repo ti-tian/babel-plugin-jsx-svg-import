@@ -13,7 +13,7 @@ module.exports = function(api) {
   ];
   const plugins = [
     [
-      '@qunhe/babel-plugin-jsx-svg-import',
+      'babel-plugin-jsx-svg-import',
       {
         displayName: 'Icon',
         propName: 'type',
