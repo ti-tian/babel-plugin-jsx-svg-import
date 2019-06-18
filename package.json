@@ -4,6 +4,10 @@
   "description": "Add SVG file imports for Jsx elements",
   "main": "lib/index.js",
   "author": "titian",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:titian123/babel-plugin-jsx-svg-import.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.0.0",

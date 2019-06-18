@@ -18,14 +18,6 @@ export default [
     plugins
   },
   {
-    input: 'src/plugin.js',
-    output: {
-      format: 'cjs',
-      file: 'lib/plugin.js'
-    },
-    plugins
-  },
-  {
     input: 'src/runtime.js',
     output: {
       format: 'cjs',
