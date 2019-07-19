@@ -1,26 +1,28 @@
 # babel-plugin-jsx-svg-import
 
-> 自动引入 `svg` 文件的 `babel` 插件
+[中文文档](https://github.com/ti-tian/babel-plugin-jsx-svg-import/blob/master/README.zh.md)
 
-> 配合 svg-sprite-loader 使用
+> add `svg` file imports for `jsx` elements。
 
-## 功能
+> with svg-sprite-loader
 
-- 不需要手动引入 `svg` 文件，在文件中自动引入 `svg`
-- 不需要提供自定义 `Icon` 组件, 插件可以自动引入 `Icon` 组件
+## Function
 
-## 参数
+- There is no need to manually import the `svg` file, which automatically import `svg` in the file.
+- There is no need to provide a custom `Icon` component, the plugin can automatically import the `Icon` component
+
+## options
 
 ```javascript
 {
-  "displayName": "Icon", // 默认: "Icon", 图标组件名称
-  "propName": "type",   // 默认: “type” 指定图标名称的参数名
-  "directory": "/assets/", // 存放 svg 的文件夹名称
-  "importComponent": false, // 默认：false, 不需要自定义图标组件，使用插件提供的图标组件
+  "displayName": "Icon",
+  "propName": "type",
+  "directory": "/assets/",
+  "importComponent": false,
 }
 ```
 
-### 不使用 importComponent
+### no use [importComponent]
 
 ```javascript
 [
@@ -28,8 +30,8 @@
   {
     displayName: 'Icon',
     propName: 'type',
-    directory: '/assets/'
-  }
+    directory: '/assets/',
+  },
 ];
 ```
 
@@ -45,7 +47,7 @@ import './assets/close.svg'
 ReactDOM.render(<Icon type="close"/>);
 ```
 
-### 使用 importComponent
+### use importComponent
 
 ```javascript
 [
@@ -54,8 +56,8 @@ ReactDOM.render(<Icon type="close"/>);
     displayName: 'Icon',
     propName: 'type',
     directory: '/assets/',
-    importComponent: true
-  }
+    importComponent: true,
+  },
 ];
 ```
 
@@ -70,14 +72,14 @@ import './assets/close.svg'
 ReactDOM.render(<Icon type="close"/>);
 ```
 
-## Icon Component 参数
+## Icon Component
 
-> 同 antd Icon
+> from antd Icon
 
-| 字段      | 说明                    | 类型             | 只读值         |
-| --------- | ----------------------- | ---------------- | -------------- |
-| width     | `svg` 元素宽度          | string \| number | '1em'          |
-| height    | `svg` 元素高度          | string \| number | '1em'          |
-| fill      | `svg` 元素填充的颜色    | string           | 'currentColor' |
-| className | 计算后的 `svg` 类名     | string           | -              |
-| style     | 计算后的 `svg` 元素样式 | CSSProperties    | -              |
+| prop      | desc                     | type             | default        |
+| --------- | ------------------------ | ---------------- | -------------- |
+| width     | `svg` element width      | string \| number | '1em'          |
+| height    | `svg` element height     | string \| number | '1em'          |
+| fill      | `svg` element fill color | string           | 'currentColor' |
+| className | `svg` element class      | string           | -              |
+| style     | `svg` element style      | CSSProperties    | -              |
