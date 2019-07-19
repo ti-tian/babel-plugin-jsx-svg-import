@@ -6,7 +6,7 @@
   "author": "titian",
   "repository": {
     "type": "git",
-    "url": "git@github.com:titian123/babel-plugin-jsx-svg-import.git"
+    "url": "git@github.com:ti-tian/babel-plugin-jsx-svg-import.git"
   },
   "license": "MIT",
   "devDependencies": {
@@ -29,6 +29,7 @@
     "README.md"
   ],
   "scripts": {
+    "build": "rollup -c",
     "example": "cd example && npm run dev"
   }
 }
