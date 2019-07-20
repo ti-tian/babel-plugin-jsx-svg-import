@@ -3,15 +3,15 @@ module.exports = {
   extends: ['airbnb-base'],
   env: {
     node: true,
-    es6: true
+    es6: true,
   },
   rules: {
     indent: [
       2,
       2,
       {
-        SwitchCase: 1
-      }
+        SwitchCase: 1,
+      },
     ],
     'lines-between-class-members': 0,
     'class-methods-use-this': 0,
@@ -21,16 +21,16 @@ module.exports = {
       {
         VariableDeclarator: {
           array: false,
-          object: true
+          object: true,
         },
         AssignmentExpression: {
           array: false,
-          object: false
-        }
+          object: false,
+        },
       },
       {
-        enforceForRenamedProperties: false
-      }
+        enforceForRenamedProperties: false,
+      },
     ],
     'object-curly-newline': [
       'error',
@@ -38,14 +38,14 @@ module.exports = {
         ObjectExpression: {
           minProperties: 5,
           multiline: true,
-          consistent: true
+          consistent: true,
         },
         ObjectPattern: {
           minProperties: 5,
           multiline: true,
-          consistent: true
-        }
-      }
+          consistent: true,
+        },
+      },
     ],
     eqeqeq: 2,
     semi: 2,
@@ -58,7 +58,7 @@ module.exports = {
     'no-redeclare': 2,
     'no-unreachable': 2,
     'no-with': 2,
-    'default-case': 2
+    'default-case': 2,
   },
   globals: {
     window: false,
@@ -66,6 +66,6 @@ module.exports = {
     require: false,
     define: false,
     seajs: false,
-    document: false
-  }
+    document: false,
+  },
 };
