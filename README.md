@@ -2,6 +2,8 @@
 
 [中文文档](https://github.com/ti-tian/babel-plugin-jsx-svg-import/blob/master/README.zh.md)
 
+[![npm version](https://img.shields.io/npm/v/babel-plugin-jsx-svg-import.svg?style=flat)](https://www.npmjs.com/package/babel-plugin-jsx-svg-import)
+
 > add `svg` file imports for `jsx` elements。
 
 > with svg-sprite-loader
