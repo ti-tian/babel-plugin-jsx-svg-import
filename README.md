@@ -8,12 +8,12 @@
 
 > with svg-sprite-loader
 
-## Function
+## Features
 
 - There is no need to manually import the `svg` file, which automatically import `svg` in the file.
 - There is no need to provide a custom `Icon` component, the plugin can automatically import the `Icon` component
 
-## options
+## Options
 
 ```javascript
 {
